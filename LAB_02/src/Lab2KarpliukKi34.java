@@ -13,6 +13,7 @@ import java.util.*;
 public class Lab2KarpliukKi34 {
     /**
      * Статичний метод main є точкою входу в програму
+     *
      * @param args
      * @throws FileNotFoundException
      */
@@ -29,13 +30,17 @@ public class Lab2KarpliukKi34 {
         sc.nextLine();
         array = new char[rows][];
         for (int i = 0; i < rows; i++) {
-            array[i] = new char[i + 1];
+            if (i < rows / 2) {
+                array[i] = new char[i + 1];
+            } else {
+                array[i] = new char[rows- i];
+            }
         }
         System.out.print("\nВведіть символ-заповнювач: ");
         symbol = sc.nextLine();
         if (symbol.length() == 1) {
-            for (int i = 0; i < rows / 2; i++) {
-                for (int j = 0; j < i + 1; j++) {
+            for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < array[i].length; j++) {
                     array[i][j] = (char) symbol.codePointAt(0);
                     System.out.print(array[i][j] + " ");
                     fout.print(array[i][j] + " ");
@@ -43,19 +48,9 @@ public class Lab2KarpliukKi34 {
                 System.out.print("\n");
                 fout.print("\n");
             }
-            for (int i = rows / 2; i < rows; i++) {
-                for (int j = 0; j < rows - i; j++) {
-                    array[i][j] = (char) symbol.codePointAt(0);
-                    System.out.print(array[i][j] + " ");
-                    fout.print(array[i][j] + " ");
-                }
-                System.out.print("\n");
-                fout.print("\n");
-            }
-        }
-        else {
+        } else {
             System.out.print("\nСимвол-заповнювач введено не вірно");
-            System. exit(0);
+            System.exit(0);
         }
         fout.flush();
         fout.close();
