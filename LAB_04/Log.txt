@@ -1,0 +1,11 @@
+Laptop is switched on!
+Power supply is turned on! Status: true
+Processor start's working : 63
+OS start's working! Status: true
+OS type changed to : LINUX
+Laptop is switched off! 
+Power supply is turned off! Status: false
+Processor finishes working : 0
+OS finishes working! Status:false
+RAM size before increasing : 8
+RAM size after increasing : 16

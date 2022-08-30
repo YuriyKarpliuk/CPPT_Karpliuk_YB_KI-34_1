@@ -1,5 +1,10 @@
 package KI34.Karpliuk.Lab3;
-
+/**
+ * Class <code>PowerSupply</code> implements power supply
+ *
+ * @author Yurii Karpliuk
+ * @version 1.0
+ */
 public class PowerSupply {
     // PowerSupply mode
     private boolean isTurnedOn;

@@ -1,5 +1,10 @@
 package KI34.Karpliuk.Lab3;
-
+/**
+ * Class <code>RAM</code> implements random-access memory
+ *
+ * @author Yurii Karpliuk
+ * @version 1.0
+ */
 public class RAM {
     // RAM size value
     private int size;

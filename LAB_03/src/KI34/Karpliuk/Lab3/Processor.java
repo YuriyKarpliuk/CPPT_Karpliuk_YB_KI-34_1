@@ -1,5 +1,10 @@
 package KI34.Karpliuk.Lab3;
-
+/**
+ * Class <code>Processor</code> implements processor
+ *
+ * @author Yurii Karpliuk
+ * @version 1.0
+ */
 public class Processor {
     // Processor amount of cores value
     private int amountOfCores;

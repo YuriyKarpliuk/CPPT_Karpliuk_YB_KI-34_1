@@ -1,5 +1,10 @@
 package KI34.Karpliuk.Lab3;
-
+/**
+ * Class <code>OS</code> implements operating system
+ *
+ * @author Yurii Karpliuk
+ * @version 1.0
+ */
 public class OS {
     // OS type value
     private OSType osType;
