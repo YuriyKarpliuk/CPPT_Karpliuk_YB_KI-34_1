@@ -40,10 +40,16 @@ public class Lab2KarpliukKi34 {
         symbol = sc.nextLine();
         if (symbol.length() == 1) {
             for (int i = 0; i < rows; i++) {
-                for (int j = 0; j < array[i].length; j++) {
-                    array[i][j] = (char) symbol.codePointAt(0);
-                    System.out.print(array[i][j] + " ");
-                    fout.print(array[i][j] + " ");
+                for (int j = 0; j < rows; j++) {
+                    if(j<array[i].length) {
+                        array[i][j] = (char) symbol.codePointAt(0);
+                        System.out.print(array[i][j] + "\t");
+                        fout.print(array[i][j] + "\t");
+                    }
+                    else{
+                        System.out.print("o" + "\t");
+                        fout.print("o" + "\t");
+                    }
                 }
                 System.out.print("\n");
                 fout.print("\n");
