@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"KI34.Karpiuk.Lab7","l":"Cargo"},{"p":"KI34.Karpiuk.Lab7","l":"Data"},{"p":"KI34.Karpiuk.Lab7","l":"Equipment"},{"p":"KI34.Karpiuk.Lab7","l":"ShipsHold"},{"p":"KI34.Karpiuk.Lab7","l":"ShipsHoldApp"}];updateSearchResults();
